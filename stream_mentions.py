@@ -33,7 +33,7 @@ logger = logging.getLogger()
 
 mentions_hash_table = {}
 
-filepath = '/home/berkay/Desktop/projects/twitter/hash_table.txt'
+filepath = './hash_table.txt'
 
 with open(filepath, 'r') as fp:
     for line in fp:
